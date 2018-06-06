@@ -27,7 +27,7 @@ class ListActiveAlertRuleRequest extends \RpcAcsRequest
 		$this->setMethod("POST");
 	}
 
-	private  $product;
+	protected  $product;
 
 	private  $userId;
 

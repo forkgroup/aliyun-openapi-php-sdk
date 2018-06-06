@@ -35,7 +35,7 @@ class AddCustomLiveStreamTranscodeRequest extends \RpcAcsRequest
 
 	private  $ownerId;
 
-	private  $version;
+	protected  $version;
 
 	private  $securityToken;
 
